@@ -11,6 +11,7 @@ from myerror import *
 # In[2]:
 
 def srednia(lista):
+    """Oblicznie sredniej kwadratowej"""
     if(type(lista)!=list):
         raise IBeBack
     suma=0.0
