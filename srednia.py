@@ -19,3 +19,10 @@ def srednia(lista):
         suma+=i**2
     return(sqrt(suma/len(lista)))
 
+def srednia2(lista):
+    """Obliczanie sredniej arytmetycznej"""
+    x=0
+    y=len(lista)
+    for i in lista:
+        x+=i
+    return(x/y)
