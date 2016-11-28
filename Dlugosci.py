@@ -3,6 +3,10 @@ class PROG():
         pass
 
     def funkcja(self,name):
+	"""
+	:name file
+	:return dictionary 
+	"""
         source=open(name+".txt").read()
         IN=source.split(" ")
         dic={}
