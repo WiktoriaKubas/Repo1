@@ -6,6 +6,7 @@ class Rysuj:
 		self.dic = dic
 	def rysujhisto(self):
 		""" funkcja rysujaca histogram
+
 		"""
 		ldic = []
 		histogram = []
