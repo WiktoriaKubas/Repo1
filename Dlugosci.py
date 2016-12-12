@@ -15,6 +15,7 @@ class PROG():
         IN=IN.replace(".","")
         IN=IN.replace(";","")
         IN=IN.replace(":","")
+        IN=IN.replace("\n"," ")
         for i in IN:
             if(i[-1]=="," or i[-1]=="."):
                i=i[0:(len(i)-1)]
