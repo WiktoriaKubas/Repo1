@@ -28,4 +28,3 @@ class Rysuj:
 		for x in range(0, len(histogram), 2):
 			print str(histogram[x]) + " : " + histogram[x+1]					
 		return histogram	
-
