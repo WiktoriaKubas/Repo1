@@ -15,7 +15,6 @@ class Rysuj:
 			ldic.append(i)
 
 		ldic.sort()
-		print ldic
 		
 		for j in ldic:
 			counter = self.dic[j]
