@@ -20,8 +20,7 @@ class PROG():
         while True:
             ask=input("Wyswietlic wyniki(1) czy zapisac do pliku(2)?")
             if ask=="1":
-                print(dic)
-                return
+                return dic
             elif ask=="2":
                 target=input("Podaj nazwe pliku(bez rozszerzenia): ")
                 temp=dic.items()
