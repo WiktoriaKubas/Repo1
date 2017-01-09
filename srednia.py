@@ -13,7 +13,7 @@ from myerror import *
 def srednia(lista):
     """Oblicznie sredniej kwadratowej"""
     if(type(lista)!=list):
-        raise IBeBack
+        return 0
     suma=0.0
     for i in lista:
         suma+=i**2
